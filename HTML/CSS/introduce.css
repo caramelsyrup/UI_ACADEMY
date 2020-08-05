@@ -1,0 +1,106 @@
+.container{
+   position: absolute;
+   width: 1920px;
+   height: auto;
+   margin: 0 auto;
+}
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+header{
+    position: relative;
+    height: 5px;
+}
+header h1{
+    font-size: 2.2em;
+    text-shadow: 0.3px 3px 3px grey;
+    padding-left: 100px;
+}
+.navi{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(131, 131, 228, 0.2);
+}
+.navi ul{
+    list-style: none;
+    padding-left: 550px;
+}
+.navi ul li{
+    display: inline;
+    position: relative;
+    font-size: 1.5em;
+    text-shadow: 0px 1px 1px;
+    padding-right: 250px;
+}
+.navi ul li a{
+    color: midnightblue;
+    text-decoration: none;
+}
+span:hover{
+        text-shadow:0px 1px 1px lightslategray;
+		color:orangered;
+}
+.navi a:hover, .navi a:active, .navi a:focus {
+		text-shadow:0px 1px 1px lightslategray;
+		color:orangered;
+}
+article{
+    position: relative;
+    padding-top: 110px;
+    padding-left: 730px;
+    display: block;
+}
+article h2{
+    font-size: 2.2em;
+    text-shadow: 0px 2px 2px gray;
+}
+article h4{
+    font-size: 1.4em;
+    text-shadow: 0.5px 1px 1px gray;
+}
+#close{
+    margin-left: 750px;
+    width: 150px;
+    height: 35px;
+    font-size: 1.0em;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: gold;
+}
+.sidebar{
+    position: absolute;
+    float: left;
+    top: 120px;
+    left: 160px;
+    width: 200px;
+    height: 380px;
+    background-color: rgb(216, 219, 1,0.5);
+    text-align: center;
+    color:black;
+}
+aside #facebook{
+    width: 90%;
+}
+aside #google{
+    width: 90%;
+}
+aside #paypal{
+    width: 90%;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    bottom: -10px;
+	padding: 10px 0;
+    background-color:rgba(212, 243, 220, 0.2);
+    color: black;
+    text-align:center;
+}

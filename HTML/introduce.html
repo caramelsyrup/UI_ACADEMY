@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/introduce.js"></script>
+    <link rel="stylesheet" href="CSS/introduce.css">
+</head>
+<body>
+    <div class="container">
+        <img src="image/keyboard-498396_1920.jpg" id="background" alt="bg">
+        <header>
+            <h1>임서준 포트폴리오</h1>
+        </header>
+        <nav class="navi">
+            <ul>
+                <li id="first"><span onclick="showDetail()">웹 개발자란?</span></li>
+                <li id="second"><a href="resume.html" target="_blank">자기소개</a></li>
+                <li id="third"><a href="Join.html" target="_blank">회원가입</a></li>
+            </ul>
+        </nav>
+        <section class="content" id="content">
+            <article>
+                <h2>웹 개발자 소개</h2>
+                    <h3>HTTP 프로토콜을 커뮤니케이션 매체로 사용하는 웹 페이지, 웹 사이트 등 WWW 기반 소프트웨어 개발자 <br>
+                        또는 소프트웨어 엔지니어를 말한다.</h3>
+                    <p>대다수의 웹개발자들은 웹 디자인, 정보설계, 사용자 인터페이스 설계, 프로젝트 관리, 웹 서버 및 데이터베이스 관리, 웹페이지 <br>
+                       코딩 및 프로그래밍 관련 기술을 가지고 있다.</p>
+                    <h4>웹퍼블리셔(ui개발자), 개발자(서버개발자)</h4>
+                    <p>HTML 중심이거나, 서버사이드가 감싸는 웹구조의 형태를 지향하는 업무 스타일의 직군으로서 웹퍼블리셔는 사용자에게 보여지는<br>
+                       인터페이스 영역을 작업하고, 개발자는 데이터의 비지니스 로직을 전반으로 담당한다. 웹퍼블리셔는 해외에서는 UI개발자로 불린다.</p>
+                    <h4>백엔드 개발자</h4>
+                    <p>기존 개발자와 스펙이 조금 다르고, 백엔드의 뷰는 화면개발이 아닌 API 개발이고, 백엔드 인증 처리도 따로 알아야 하며, 데이터베이스<br>
+                       분석과 API서버를 개발한다. 프론트엔드에서 전달된 데이터의 포맷이나 데이터베이스 입출력 및 다양한 비즈니스 프로세스를 프로그래밍 <br>
+                       코드로 구현하는 역할을 한다. 데이터베이스, 웹서버, 네트워킹 등 웹 서버의 인프라에 대한 이해가 필요하다.</p>
+                    <button id="close" onclick="hideDetail()">닫기(CLOSE)</button>
+            </article>
+        </section>
+        <aside class="sidebar">
+            <h3>IT 유명 업체</h3>
+            <a href="https://ko-kr.facebook.com/facebook" target="_blank"><img src="image/facebook.png" id="facebook"></a><br>
+            <a href="https://about.google/" target="_blank"><img src="image/google.png" id="google"></a><br>
+            <a href="https://www.paypal.com/kr/webapps/mpp/home" target="_blank"><img src="image/paypal.png" id="paypal"></a><br>
+            <a href="https://www.youtube.com/intl/ko/about/" target="_blank"><img src="image/youtube.png" id="paypal"></a><br>
+        </aside>
+    </div>
+    <footer>
+        <p><i>seojunlim87@gmail.com</i></p>
+        <p> Copyright ⓒ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
