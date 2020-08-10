@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T07:11:34.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="mGIt0-NBQv07xWoAtuWT" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T07:14:19.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52" etag="4GtHFTMx5uJaOY07ds6N" version="13.6.2" type="github">
   <diagram id="qOjI8-zWvlDRKiZvj7ap" name="Page-1">
     <mxGraphModel dx="1101" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,12 @@
         </mxCell>
         <mxCell id="fx1NLq83Mo5mZUvuyoy--48" value="이메일주소" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="540" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fx1NLq83Mo5mZUvuyoy--50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="773.5" y="280" width="193" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fx1NLq83Mo5mZUvuyoy--51" value="구매현황" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="240" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
